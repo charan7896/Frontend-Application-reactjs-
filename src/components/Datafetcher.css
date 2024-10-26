@@ -1,0 +1,89 @@
+/* Datafetcher.css */
+
+.data-container {
+    max-width: 1200px;
+    /* Max width for the container */
+    margin: 20px auto;
+    /* Centering the container */
+    padding: 20px;
+    /* Padding for the container */
+    background-color: #f9f9f9;
+    /* Light gray background */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
+
+.main-title {
+    text-align: center;
+    /* Centering the main title */
+    color: #2c3e50;
+    /* Dark color for the title */
+    font-size: 2.5rem;
+    /* Font size for the title */
+    margin-bottom: 20px;
+    /* Space below the title */
+}
+
+.data-grid {
+    display: grid;
+    /* Using grid layout for cards */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* Responsive columns */
+    gap: 20px;
+    /* Gap between cards */
+}
+
+.data-card {
+    padding: 15px;
+    /* Padding for cards */
+    background-color: #fff;
+    /* White background for cards */
+    border: 1px solid #ddd;
+    /* Light gray border */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* Shadow for cards */
+}
+
+.data-title {
+    font-size: 1.5rem;
+    /* Font size for post titles */
+    color: #2980b9;
+    /* Color for titles */
+}
+
+.data-body {
+    font-size: 1.1rem;
+    /* Font size for post body */
+    color: #333;
+    /* Dark gray for body text */
+}
+
+.data-user,
+.data-id {
+    font-size: 0.9rem;
+    /* Smaller font size for user and post ID */
+    color: #555;
+    /* Darker gray for user and post ID */
+}
+
+.loading {
+    text-align: center;
+    /* Centering loading text */
+    font-size: 1.2rem;
+    /* Font size for loading */
+    color: #3498db;
+    /* Blue color for loading */
+}
+
+.error {
+    text-align: center;
+    /* Centering error text */
+    font-size: 1.2rem;
+    /* Font size for error */
+    color: #e74c3c;
+    /* Red color for error */
+}
